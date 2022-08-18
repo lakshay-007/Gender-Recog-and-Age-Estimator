@@ -10,8 +10,10 @@ from keras.layers.normalization import BatchNormalization
 from keras.regularizers import l2
 from keras import backend as K
 
+
 sys.setrecursionlimit(2 ** 20)
 np.random.seed(2 ** 10)
+
 
 
 class WideResNet:
